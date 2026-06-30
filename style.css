@@ -32,9 +32,9 @@ header {
 header img {
     width: 220px;
     border-radius: 50%;
-    border: 5px solid #ff7b00;
+    border: 5px solid #ffb347;
     margin-bottom: 20px;
-    box-shadow: 0 0 20px #ff7b00;
+    box-shadow: 0 0 20px #ffb347;
 }
 
 /* ==========================
@@ -42,19 +42,20 @@ header img {
 ========================== */
 
 h1 {
-    color: #ff7b00;
+    color: #ffb347;
     font-size: 42px;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #ffa033;
+    color: #ffc266;
     margin-bottom: 15px;
 }
 
 h3 {
-    color: #ffb347;
-    margin: 15px 0;
+    color: #ffd699;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* ==========================
@@ -62,8 +63,8 @@ h3 {
 ========================== */
 
 p {
+    color: #eeeeee;
     margin-bottom: 15px;
-    color: #dddddd;
 }
 
 /* ==========================
@@ -84,17 +85,17 @@ li {
 ========================== */
 
 a {
-    color: #ff7b00;
+    color: #ffb347;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 a:hover {
-    background-color: #ff7b00;
+    background: #ffb347;
     color: #121212;
-    padding: 5px 10px;
-    border-radius: 6px;
+    padding: 6px 10px;
+    border-radius: 8px;
 }
 
 /* ==========================
@@ -102,21 +103,20 @@ a:hover {
 ========================== */
 
 section {
-    background-color: #1e1e1e;
-    border: 2px solid #ff7b00;
+    background-color: #1d1d1d;
+    border: 2px solid #ffb347;
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 25px;
-    box-shadow: 0 0 12px rgba(255, 123, 0, 0.4);
 }
 
 /* ==========================
-   LINHA
+   LINHAS
 ========================== */
 
 hr {
     border: none;
-    border-top: 2px solid #ff7b00;
+    border-top: 2px solid #ffb347;
     margin: 30px 0;
 }
 
@@ -126,16 +126,22 @@ hr {
 
 footer {
     text-align: center;
-    color: #bbbbbb;
-    margin-top: 40px;
-    border-top: 2px solid #ff7b00;
+    color: #cccccc;
+    border-top: 2px solid #ffb347;
     padding-top: 20px;
+    margin-top: 40px;
 }
 
 /* ==========================
-   EFEITO NOS TÍTULOS
+   EFEITOS
 ========================== */
 
-h1, h2 {
-    text-shadow: 0 0 10px rgba(255, 123, 0, 0.6);
+section:hover {
+    box-shadow: 0 0 20px rgba(255, 179, 71, 0.4);
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
 }
